@@ -213,3 +213,2480 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 12:31:0
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 12:31:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 12:43:15 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/railties-4.1.5/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 14ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:17 -0600
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 12:43:19 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (82.7ms)
+  Rendered gulucas/new.html.erb within layouts/application (85.8ms)
+Completed 200 OK in 139ms (Views: 137.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/gulucas" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+Processing by GulucasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "guluca"=>{"nombre"=>"", "correo"=>""}, "commit"=>"Create Guluca"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered gulucas/_form.html.erb (4.2ms)
+  Rendered gulucas/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 46ms (Views: 41.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 12:43:21 -0600
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 14:31:45 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 307ms (Views: 287.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 14:31:46 -0600
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 14:31:50 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (0.7ms)
+  Rendered gulucas/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: syntax error, unexpected tLABEL
+...nd=  form_for(@guluca), remote: true, format: :json, html: {...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: Can't assign to true
+...orm_for(@guluca), remote: true, format: :json, html: {class:...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...on, html: {class: :thing_form}) do |f| @output_buffer.safe_a...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/gulucas/_form.html.erb:1: syntax error, unexpected tLABEL
+  app/views/gulucas/_form.html.erb:1: Can't assign to true
+  app/views/gulucas/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+  app/views/gulucas/_form.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/gulucas/new.html.erb:3:in `_app_views_gulucas_new_html_erb___1710812495739351726_40988720'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 14:31:50 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (0.6ms)
+  Rendered gulucas/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: syntax error, unexpected tLABEL
+...nd=  form_for(@guluca), remote: true, format: :json, html: {...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: Can't assign to true
+...orm_for(@guluca), remote: true, format: :json, html: {class:...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...on, html: {class: :thing_form}) do |f| @output_buffer.safe_a...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/gulucas/_form.html.erb:1: syntax error, unexpected tLABEL
+  app/views/gulucas/_form.html.erb:1: Can't assign to true
+  app/views/gulucas/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+  app/views/gulucas/_form.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/gulucas/new.html.erb:3:in `_app_views_gulucas_new_html_erb___1710812495739351726_38871620'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 14:32:21 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (0.9ms)
+  Rendered gulucas/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: syntax error, unexpected tLABEL
+...nd=  form_for(@guluca), remote: true, format: :json, html: {...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: Can't assign to true
+...orm_for(@guluca), remote: true, format: :json, html: {class:...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...n, html: {class: :guluca_form}) do |f| @output_buffer.safe_a...
+...                               ^
+/home/oscar/Code/Github/UnDiaConLaUCA/app/views/gulucas/_form.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/gulucas/_form.html.erb:1: syntax error, unexpected tLABEL
+  app/views/gulucas/_form.html.erb:1: Can't assign to true
+  app/views/gulucas/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+  app/views/gulucas/_form.html.erb:30: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/gulucas/new.html.erb:3:in `_app_views_gulucas_new_html_erb___1710812495739351726_38871620'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 14:33:02 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (55.8ms)
+  Rendered gulucas/new.html.erb within layouts/application (56.5ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 14:33:03 -0600
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:40:44 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"", "correo"=>""}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:05 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:05.316114"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:05.316114"]]
+  [1m[36m (154.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 164ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004d426b0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (13.3ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:07 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:07.575018"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:07.575018"]]
+  [1m[35m (208.2ms)[0m  commit transaction
+Completed 500 Internal Server Error in 217ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x0000000499f4b8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (21.8ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:10 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:10.893315"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:10.893315"]]
+  [1m[36m (141.3ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 150ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x0000000473bf78>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (23.8ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:11 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:11.763115"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:11.763115"]]
+  [1m[35m (138.6ms)[0m  commit transaction
+Completed 500 Internal Server Error in 143ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000002bf68a8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (11.7ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:11 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:11.990388"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:11.990388"]]
+  [1m[36m (153.7ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 160ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000002f049c8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (21.0ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:12 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:12.187076"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:12.187076"]]
+  [1m[35m (150.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 161ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000001b503a0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (17.1ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:12 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:12.393978"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:12.393978"]]
+  [1m[36m (160.3ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 170ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004ff7018>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (18.2ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:12 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:12.599944"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:12.599944"]]
+  [1m[35m (138.7ms)[0m  commit transaction
+Completed 500 Internal Server Error in 149ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004d98498>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (16.6ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:12 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:12.780692"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:12.780692"]]
+  [1m[36m (142.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 148ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x000000049fc938>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (12.6ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:12 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:12.954711"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:12.954711"]]
+  [1m[35m (145.5ms)[0m  commit transaction
+Completed 500 Internal Server Error in 153ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x000000047970d0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (14.8ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:13 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:13.138427"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:13.138427"]]
+  [1m[36m (137.9ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 143ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x000000045b7a58>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (13.7ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (4.0ms)
+  Rendered gulucas/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 14:41:14 -0600
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:23 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:23.565540"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:23.565540"]]
+  [1m[35m (156.7ms)[0m  commit transaction
+Completed 500 Internal Server Error in 165ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004d011d8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (23.5ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:28 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (17.0ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:28.219615"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:28.219615"]]
+  [1m[36m (145.8ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 171ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x0000000499cab0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (18.1ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:28 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:28.680133"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:28.680133"]]
+  [1m[35m (136.5ms)[0m  commit transaction
+Completed 500 Internal Server Error in 144ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x0000000472bf60>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (21.2ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:28 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:28.872657"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:28.872657"]]
+  [1m[36m (138.9ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 147ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x000000034de5d8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (24.4ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:29 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:29.061834"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:29.061834"]]
+  [1m[35m (142.7ms)[0m  commit transaction
+Completed 500 Internal Server Error in 150ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000002e94d80>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (24.4ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:29 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:29.257704"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:29.257704"]]
+  [1m[36m (139.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 152ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000001804fc0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (21.9ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:29 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:29.449510"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:29.449510"]]
+  [1m[35m (140.2ms)[0m  commit transaction
+Completed 500 Internal Server Error in 149ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004fc29f8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (18.9ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:29 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:29.639311"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:29.639311"]]
+  [1m[36m (134.2ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 142ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004cd3760>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (18.0ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:29 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:29.823954"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:29.823954"]]
+  [1m[35m (158.9ms)[0m  commit transaction
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x0000000496bf50>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (24.4ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 14:41:30 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 20:41:30.053285"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 20:41:30.053285"]]
+  [1m[36m (206.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 216ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004716ac0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (22.5ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (3.1ms)
+  Rendered gulucas/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 289ms (Views: 287.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:11:55 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:11:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:11:56 -0600
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:12:09 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"demo@demo.com", "correo"=>"demo@demo.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "demo@demo.com"], ["created_at", "2014-09-07 21:12:09.688285"], ["nombre", "demo@demo.com"], ["updated_at", "2014-09-07 21:12:09.688285"]]
+  [1m[35m (208.3ms)[0m  commit transaction
+Completed 500 Internal Server Error in 218ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000002f32080>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (23.3ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:12:14 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"demo@demo.com", "correo"=>"demo@demo.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "demo@demo.com"], ["created_at", "2014-09-07 21:12:14.190519"], ["nombre", "demo@demo.com"], ["updated_at", "2014-09-07 21:12:14.190519"]]
+  [1m[36m (149.5ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 160ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000001adf448>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (34.5ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:12:14 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"demo@demo.com", "correo"=>"demo@demo.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "demo@demo.com"], ["created_at", "2014-09-07 21:12:14.905395"], ["nombre", "demo@demo.com"], ["updated_at", "2014-09-07 21:12:14.905395"]]
+  [1m[35m (135.3ms)[0m  commit transaction
+Completed 500 Internal Server Error in 144ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004fd14f8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (26.2ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:12:15 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"demo@demo.com", "correo"=>"demo@demo.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "demo@demo.com"], ["created_at", "2014-09-07 21:12:15.098144"], ["nombre", "demo@demo.com"], ["updated_at", "2014-09-07 21:12:15.098144"]]
+  [1m[36m (151.7ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 161ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004cf8718>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (14.0ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:12:15 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"demo@demo.com", "correo"=>"demo@demo.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "demo@demo.com"], ["created_at", "2014-09-07 21:12:15.293382"], ["nombre", "demo@demo.com"], ["updated_at", "2014-09-07 21:12:15.293382"]]
+  [1m[35m (148.7ms)[0m  commit transaction
+Completed 500 Internal Server Error in 155ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004977fa8>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (14.2ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:16 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.3ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 90ms (Views: 88.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/gulucas/2" for 127.0.0.1 at 2014-09-07 15:12:22 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"2"}
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 2]]
+  [1m[36m (146.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 171ms (ActiveRecord: 148.1ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.3ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:23 -0600
+
+
+Started DELETE "/gulucas/3" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"3"}
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 3]]
+  [1m[35m (140.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 146ms (ActiveRecord: 141.5ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.3ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:25 -0600
+
+
+Started DELETE "/gulucas/4" for 127.0.0.1 at 2014-09-07 15:12:27 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"4"}
+  [1m[35mGuluca Load (0.3ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 4]]
+  [1m[36m (153.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 159ms (ActiveRecord: 154.3ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:27 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:28 -0600
+
+
+Started DELETE "/gulucas/5" for 127.0.0.1 at 2014-09-07 15:12:29 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"5"}
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 5]]
+  [1m[35m (144.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 149ms (ActiveRecord: 144.4ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:29 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.5ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:30 -0600
+
+
+Started DELETE "/gulucas/6" for 127.0.0.1 at 2014-09-07 15:12:31 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"6"}
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 6]]
+  [1m[36m (158.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 164ms (ActiveRecord: 158.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:32 -0600
+
+
+Started DELETE "/gulucas/27" for 127.0.0.1 at 2014-09-07 15:12:34 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"27"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 27]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 27]]
+  [1m[35m (146.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 153ms (ActiveRecord: 147.4ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:34 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 75ms (Views: 73.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:35 -0600
+
+
+Started DELETE "/gulucas/14" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"14"}
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 14]]
+  [1m[36m (144.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 148ms (ActiveRecord: 144.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.3ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:37 -0600
+
+
+Started DELETE "/gulucas/12" for 127.0.0.1 at 2014-09-07 15:12:39 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"12"}
+  [1m[36mGuluca Load (1.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 12]]
+  [1m[35m (152.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 160ms (ActiveRecord: 153.7ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:39 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.5ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:40 -0600
+
+
+Started DELETE "/gulucas/11" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"11"}
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 11]]
+  [1m[36m (144.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 147ms (ActiveRecord: 144.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.4ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:41 -0600
+
+
+Started DELETE "/gulucas/13" for 127.0.0.1 at 2014-09-07 15:12:43 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"13"}
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 13]]
+  [1m[35m (143.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 148ms (ActiveRecord: 144.3ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:43 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:43 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:43 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:43 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:44 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:44 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:44 -0600
+
+
+Started DELETE "/gulucas/10" for 127.0.0.1 at 2014-09-07 15:12:45 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"10"}
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 10]]
+  [1m[36m (139.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 141ms (ActiveRecord: 139.4ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:45 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:46 -0600
+
+
+Started DELETE "/gulucas/9" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"9"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 9]]
+  [1m[35m (149.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 155ms (ActiveRecord: 150.0ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:47 -0600
+
+
+Started DELETE "/gulucas/15" for 127.0.0.1 at 2014-09-07 15:12:49 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"15"}
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 15]]
+  [1m[36m (405.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 409ms (ActiveRecord: 405.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.4ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:50 -0600
+
+
+Started DELETE "/gulucas/8" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"8"}
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 8]]
+  [1m[35m (147.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 151ms (ActiveRecord: 147.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:52 -0600
+
+
+Started DELETE "/gulucas/26" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"26"}
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 26]]
+  [1m[36m (139.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 146ms (ActiveRecord: 140.0ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:54 -0600
+
+
+Started DELETE "/gulucas/25" for 127.0.0.1 at 2014-09-07 15:12:56 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"25"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 25]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 25]]
+  [1m[35m (152.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 154ms (ActiveRecord: 152.3ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:57 -0600
+
+
+Started DELETE "/gulucas/24" for 127.0.0.1 at 2014-09-07 15:12:58 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"24"}
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 24]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 24]]
+  [1m[36m (147.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 153ms (ActiveRecord: 148.2ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:12:59 -0600
+
+
+Started DELETE "/gulucas/23" for 127.0.0.1 at 2014-09-07 15:13:00 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"23"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 23]]
+  [1m[35m (125.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 128ms (ActiveRecord: 125.9ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:01 -0600
+
+
+Started DELETE "/gulucas/22" for 127.0.0.1 at 2014-09-07 15:13:03 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"22"}
+  [1m[35mGuluca Load (0.7ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 22]]
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 22]]
+  [1m[36m (135.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 142ms (ActiveRecord: 136.7ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:04 -0600
+
+
+Started DELETE "/gulucas/7" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"7"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 7]]
+  [1m[35m (140.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 144ms (ActiveRecord: 140.9ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:06 -0600
+
+
+Started DELETE "/gulucas/16" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"16"}
+  [1m[35mGuluca Load (0.4ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 16]]
+  [1m[36m (129.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 136ms (ActiveRecord: 130.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:08 -0600
+
+
+Started DELETE "/gulucas/17" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"17"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 17]]
+  [1m[35m (148.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 151ms (ActiveRecord: 148.6ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.3ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:10 -0600
+
+
+Started DELETE "/gulucas/18" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"18"}
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 18]]
+  [1m[36m (147.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 150ms (ActiveRecord: 147.9ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:12 -0600
+
+
+Started DELETE "/gulucas/19" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"19"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 19]]
+  [1m[35m (150.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 154ms (ActiveRecord: 150.5ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:14 -0600
+
+
+Started DELETE "/gulucas/20" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"20"}
+  [1m[35mGuluca Load (0.3ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 20]]
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 20]]
+  [1m[36m (141.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 148ms (ActiveRecord: 143.6ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:16 -0600
+
+
+Started DELETE "/gulucas/21" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"21"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 21]]
+  [1m[35m (145.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 148ms (ActiveRecord: 145.8ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:13:18 -0600
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:28:32 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:33 -0600
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 15:28:34 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (2.3ms)
+  Rendered gulucas/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:28:48 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"oscar", "correo"=>"oscar@oscar"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar"], ["created_at", "2014-09-07 21:28:48.980528"], ["nombre", "oscar"], ["updated_at", "2014-09-07 21:28:48.980528"]]
+  [1m[36m (169.6ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 190ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x007f15486be4a0>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (27.5ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:28:51 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 215ms (Views: 209.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/gulucas/28" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"28"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 28]]
+  [1m[35m (125.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 128ms (ActiveRecord: 125.9ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:28:57 -0600
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:31:04 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/gulucas.js.js?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:31:05 -0600
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 15:31:06 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (2.3ms)
+  Rendered gulucas/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:31:10 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"", "correo"=>""}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 11ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 15:32:01 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (4.1ms)
+  Rendered gulucas/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 140ms (Views: 139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:32:02 -0600
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:32:04 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"", "correo"=>""}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:33:24 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"oscar", "correo"=>"oscar"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar"], ["created_at", "2014-09-07 21:33:24.088928"], ["nombre", "oscar"], ["updated_at", "2014-09-07 21:33:24.088928"]]
+  [1m[36m (261.1ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 270ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004782e00>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (24.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (41.9ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:33:27 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/gulucas/29/edit" for 127.0.0.1 at 2014-09-07 15:33:31 -0600
+Processing by GulucasController#edit as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 29]]
+  Rendered gulucas/_form.html.erb (1.8ms)
+  Rendered gulucas/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/gulucas/29.json" for 127.0.0.1 at 2014-09-07 15:33:33 -0600
+Processing by GulucasController#update as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"oscar", "correo"=>"oscar"}, "commit"=>"Update Guluca", "id"=>"29"}
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 200 OK in 65ms (Views: 62.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:33:36 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 15:33:41 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (4.4ms)
+  Rendered gulucas/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:33:54 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)[0m  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 21:33:54.927121"], ["nombre", "oscar"], ["updated_at", "2014-09-07 21:33:54.927121"]]
+  [1m[35m (363.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 372ms
+
+NoMethodError (undefined method `json' for #<GulucasController:0x00000004b8c618>):
+  app/controllers/gulucas_controller.rb:32:in `block (2 levels) in create'
+  app/controllers/gulucas_controller.rb:29:in `create'
+
+
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /home/oscar/.gem/ruby/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (22.8ms)
+
+
+Started GET "/gulucas/new" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+Processing by GulucasController#new as HTML
+  Rendered gulucas/_form.html.erb (5.8ms)
+  Rendered gulucas/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 116ms (Views: 97.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:39:41 -0600
+
+
+Started POST "/gulucas.json" for 127.0.0.1 at 2014-09-07 15:39:50 -0600
+Processing by GulucasController#create as JSON
+  Parameters: {"utf8"=>"✓", "guluca"=>{"nombre"=>"Oscar", "correo"=>"oscar@oscar.com"}, "commit"=>"Create Guluca"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "gulucas" ("correo", "created_at", "nombre", "updated_at") VALUES (?, ?, ?, ?)  [["correo", "oscar@oscar.com"], ["created_at", "2014-09-07 21:39:50.703371"], ["nombre", "Oscar"], ["updated_at", "2014-09-07 21:39:50.703371"]]
+  [1m[36m (157.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 163ms (Views: 0.7ms | ActiveRecord: 158.0ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:40:03 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/gulucas/31" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"31"}
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 31]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 31]]
+  [1m[35m (140.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 144ms (ActiveRecord: 141.3ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.1ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:07 -0600
+
+
+Started DELETE "/gulucas/30" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"30"}
+  [1m[35mGuluca Load (0.2ms)[0m  SELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "gulucas" WHERE "gulucas"."id" = ?  [["id", 30]]
+  [1m[36m (132.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 137ms (ActiveRecord: 133.0ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+Processing by GulucasController#index as HTML
+  [1m[35mGuluca Load (0.1ms)[0m  SELECT "gulucas".* FROM "gulucas"
+  Rendered gulucas/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:09 -0600
+
+
+Started DELETE "/gulucas/29" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+Processing by GulucasController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Km4ppZLopjbVPxLvm2NFShZsg7NUpapjNW9GvV7Z4HE=", "id"=>"29"}
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT  "gulucas".* FROM "gulucas"  WHERE "gulucas"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "gulucas" WHERE "gulucas"."id" = ?[0m  [["id", 29]]
+  [1m[35m (135.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/gulucas
+Completed 302 Found in 142ms (ActiveRecord: 136.2ms)
+
+
+Started GET "/gulucas" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+Processing by GulucasController#index as HTML
+  [1m[36mGuluca Load (0.2ms)[0m  [1mSELECT "gulucas".* FROM "gulucas"[0m
+  Rendered gulucas/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gulucas.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/gulucas.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/scaffolds.css.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/gulucas.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 15:40:19 -0600

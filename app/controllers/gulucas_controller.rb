@@ -29,10 +29,10 @@ class GulucasController < ApplicationController
     respond_to do |format|
       if @guluca.save
         format.html { redirect_to @guluca, notice: 'Guluca was successfully created.' }
-        format.json { render :show, status: :created, location: @guluca }
+        format.json { render json: @guluca }
       else
-        format.html { render :new }
-        format.json { render json: @guluca.errors, status: :unprocessable_entity }
+        format.html { render action: 'new' }
+        format.json { render json: @guluca.errors.full_messages, status: :unprocessable_entity }
       end
     end
   end
@@ -43,10 +43,10 @@ class GulucasController < ApplicationController
     respond_to do |format|
       if @guluca.update(guluca_params)
         format.html { redirect_to @guluca, notice: 'Guluca was successfully updated.' }
-        format.json { render :show, status: :ok, location: @guluca }
+        format.json { render json: @guluca }
       else
-        format.html { render :edit }
-        format.json { render json: @guluca.errors, status: :unprocessable_entity }
+        format.html { render action: 'edit' }
+        format.json { render json: @guluca.errors.full_messages, status: :unprocessable_entity }
       end
     end
   end

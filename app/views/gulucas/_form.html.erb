@@ -1,16 +1,14 @@
-<%= form_for(@guluca) do |f| %>
-  <% if @guluca.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@guluca.errors.count, "error") %> prohibited this guluca from being saved:</h2>
+<%= form_for(@guluca, remote: true, format: :json, html: {class: :guluca_form}) do |f| %>
 
-      <ul>
-      <% @guluca.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
+  <div id="error_explanation" style='display:none;'>
+    <ul>
+      <% if @guluca.errors.any? %>
+        <% @guluca.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
       <% end %>
-      </ul>
-    </div>
-  <% end %>
-
+    </ul>
+  </div>
   <div class="field">
     <%= f.label :nombre %><br>
     <%= f.text_field :nombre %>

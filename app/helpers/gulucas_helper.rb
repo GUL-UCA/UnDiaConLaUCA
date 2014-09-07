@@ -1,0 +1,2 @@
+module GulucasHelper
+end

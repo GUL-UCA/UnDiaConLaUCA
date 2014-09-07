@@ -1,0 +1,27 @@
+<h1>Listing gulucas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Correo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @gulucas.each do |guluca| %>
+      <tr>
+        <td><%= guluca.nombre %></td>
+        <td><%= guluca.correo %></td>
+        <td><%= link_to 'Show', guluca %></td>
+        <td><%= link_to 'Edit', edit_guluca_path(guluca) %></td>
+        <td><%= link_to 'Destroy', guluca, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Guluca', new_guluca_path %>

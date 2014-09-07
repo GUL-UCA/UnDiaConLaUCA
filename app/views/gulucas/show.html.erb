@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @guluca.nombre %>
+</p>
+
+<p>
+  <strong>Correo:</strong>
+  <%= @guluca.correo %>
+</p>
+
+<%= link_to 'Edit', edit_guluca_path(@guluca) %> |
+<%= link_to 'Back', gulucas_path %>
